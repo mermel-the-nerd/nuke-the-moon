@@ -1,0 +1,163 @@
+header {
+    background-color: #1e1e1e;
+    height:500px;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+header img {
+    position:absolute;
+    top:0;
+    left:50vw-width; 
+    object-fit:cover;
+    z-index:0;
+    height:500px;
+    margin:auto;
+    
+}
+
+.top {
+    z-index:2;
+  
+}
+
+.star {
+    color:orange;
+}
+
+.dotted {
+    border-top: 2px dotted black;
+}
+
+header h1 {
+    color:#1e1e1e;
+    font-size:30px;
+    margin-right:8px;
+    text-shadow: 2px 2px orange;
+    width:200px;
+    margin-top: 50px;
+    
+}
+
+#long-button {
+    width:90vw;
+    text-align:center;
+    margin-top:20px;
+    margin-left:2.5vw;
+}
+
+body {
+    display:flex;
+    flex-direction:column;
+    background-color:rgb(186, 186, 186);
+}
+
+
+
+.why {
+    display:flex;
+    flex-direction:row-reverse;
+}
+
+.why div {
+    width:60vw;
+    margin:20px;
+    text-align:center;
+}
+.why img {
+    margin:auto;
+}
+
+.donate {
+    width:100px;
+    height:30px;
+    background-color:orange;
+    border:none;
+    font-style: bold;
+    font-family: "Rubik", sans-serif;
+}
+
+.sec2 {
+    display:flex;
+    flex-direction:row;
+    text-align:center;
+}
+.emailliist {
+    width:45vw;
+   
+}
+
+.a1192 {
+    width:45vw;
+    margin:20px;
+}
+
+.idk {
+    text-align:center;
+}
+
+
+.reviews {
+    display:flex;
+    flex-direction:row;
+}
+
+.reviews div {
+    width:30vw;
+    margin:20px;
+    background-color: white;
+    padding:10px 20px 10px 20px;
+    
+}
+.revhead {
+    text-align:center;
+    
+}
+
+footer {
+    text-align:center;
+}
+
+@media screen and (max-width:800px) {
+    .reviews {
+        flex-direction:column;
+    }
+
+    .reviews div {
+        width:80vw;
+    }
+}
+
+@media screen and (max-width:615px) {
+    .why {
+        flex-direction:column-reverse;
+    }
+
+    .why div {
+        width: 80vw;
+    }
+
+    
+
+    .a119 {
+        width:80vw;
+    }
+
+    .sec2 div {
+        width:80vw;
+        margin-left:7.5vw;
+    }
+
+    .sec2 {
+        flex-direction:column;
+    }
+}
+
+
+    
+        
+    
+    
