@@ -6,6 +6,7 @@ header {
     justify-content:center;
     align-items:center;
     text-align:center;
+    padding:0;
 }
 
 header img {
@@ -18,6 +19,7 @@ header img {
     margin:auto;
     
 }
+
 
 .top {
     z-index:2;
@@ -42,62 +44,128 @@ header h1 {
     
 }
 
+
+
 #long-button {
     width:90vw;
     text-align:center;
     margin-top:20px;
     margin-left:2.5vw;
+    margin-right:2.5vw;
+    height:40px;
 }
 
 body {
     display:flex;
     flex-direction:column;
     background-color:rgb(186, 186, 186);
+    margin:0;
 }
 
-
+.info {
+    display:flex;
+    flex-direction:row;
+}
 
 .why {
     display:flex;
-    flex-direction:row-reverse;
+    flex-direction:column;
+    width:50vw;
+    margin:5vw;
 }
 
-.why div {
-    width:60vw;
-    margin:20px;
-    text-align:center;
-}
+
 .why img {
-    margin:auto;
+    width:45vw;
 }
 
+
+/* ADD BUTTON ANIMATION FOR HOVER */
 .donate {
     width:100px;
-    height:30px;
+    height:60px;
     background-color:orange;
     border:none;
     font-style: bold;
     font-family: "Rubik", sans-serif;
+    color:white;
+    font-size:20px;
+    border:5px solid orange;
+    border-radius: 12px;
+}
+
+.donate:hover {
+    background-color:rgb(186, 186, 186);
+    color:black;
+    
+}
+
+#moon-button:hover {
+    background-color:rgba(0,0,0,0);
+}
+
+.list {
+    text-align:left;
+    display:flex;
+    flex-direction:row;
+    
+}
+
+
+
+.first {
+    width:50%;
 }
 
 .sec2 {
-    display:flex;
-    flex-direction:row;
+    align-items:center;
+    justify-content:center;
     text-align:center;
+    display:flex;
+}
+.a119 {
+    align-items:center;
+    margin:auto;    
+    width:90%;
 }
 .emailliist {
     width:45vw;
+    margin:auto;
+    padding-bottom:30px;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
    
 }
+
+.emailliist button {
+    margin:auto;
+}
+
+.emailliist input[type="email"] {
+    width: 60%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid orange;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    color: #1e1e1e;
+    font-size: 18px;
+}
+
+.emailliist label {
+    font-size: 20px;
+}
+
 
 .a1192 {
     width:45vw;
     margin:20px;
-}
-
-.idk {
     text-align:center;
 }
+
+
 
 
 .reviews {
@@ -112,6 +180,16 @@ body {
     padding:10px 20px 10px 20px;
     
 }
+
+a {
+    color:white;
+    text-decoration:none;
+    
+}
+
+a:hover {
+    color:black;
+}
 .revhead {
     text-align:center;
     
@@ -119,7 +197,17 @@ body {
 
 footer {
     text-align:center;
+    background-color:orange;
+    height:30px;
+    
+    
 }
+
+.footer-text {
+    margin-top:7px;
+}
+
+
 
 @media screen and (max-width:800px) {
     .reviews {
